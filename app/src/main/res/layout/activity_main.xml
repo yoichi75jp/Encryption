@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000080">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart = "10dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:hint="@string/password"
+                android:textColorHint="#D3D3D3"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exec"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/ic_vpn_key_white_24dp"
+            android:drawableEnd="@drawable/ic_vpn_key_white_24dp"
+            android:gravity="center|end"
+            android:drawablePadding="5dp"
+            android:background="#000080"
+            android:textColor="#FFFFFF"
+            android:text="@string/run"/>
+
+    </LinearLayout>
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="0" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/adUnitId"
+        android:layout_gravity="bottom"
+        ads:adSize="BANNER" />
+
+    <!--ads:adUnitId="ca-app-pub-1485554329820885/8979939852"本番-->
+    <!--ads:adUnitId="ca-app-pub-3940256099942544/6300978111"test-->
+
+</android.support.v4.app.FragmentTabHost>

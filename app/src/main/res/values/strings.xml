@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Messeucure</string>
+
+    <string name="encryption">Encryption</string>
+    <string name="decryption">Decryption</string>
+
+    <string name="sent_title">Reception</string>
+    <string name="sent_message">What will you do with shared text?</string>
+    <string name="sent_encrypt">Encrypt</string>
+    <string name="sent_decrypt">Decrypt</string>
+
+    <string name="incorrect_title">failed</string>
+    <string name="incorrect_message">Failed to decode the encryption.\nPlease confirm your password and try again.</string>
+
+    <string name="password_message">Must be at least four-digits password.</string>
+
+    <string name="password">Password</string>
+    <string name="run">Run</string>
+
+    <string name="send">Teach the app</string>
+    <string name="share">share</string>
+    <string name="copy">copy</string>
+    <string name="result">Result</string>
+    <string name="copied">Copied</string>
+
+    <string name="hint_ciphertext">Ciphertext</string>
+    <string name="paste">paste</string>
+    <string name="clear">clear</string>
+
+    <string name="count_miss">count_miss</string>
+    <string name="count_induce">count_induce</string>
+
+    <string name="entry">Entry your message&#8230;</string>
+
+    <!--メイン画面で戻るボタンを押下したときのメッセージ-->
+    <string name="final_title">Exit menu</string>
+    <string name="final_message">Do you want to exit the application?</string>
+    <string name="final_ok">Exit</string>
+    <string name="final_cancel">Cancel</string>
+
+    <string name="induce_title">Thank you for always using this App</string>
+    <string name="induce_message">I would be pleased if you could evaluate it and comments, if you have any requests or dissatisfaction about usability and specifications.\nI look forward to working with you.</string>
+    <string name="induce_ok">Evaluate</string>
+    <string name="induce_cancel">Later</string>
+
+    <string name="adUnitId">ca-app-pub-1485554329820885/2654204659</string>
+    <string name="adUnitInterId">ca-app-pub-1485554329820885/3254871854</string>
+    <string name="adUnitTestId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="adUnitTestInterId">ca-app-pub-3940256099942544/1033173712</string>
+
+</resources>
