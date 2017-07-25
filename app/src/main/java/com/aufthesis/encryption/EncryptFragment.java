@@ -74,10 +74,10 @@ public class EncryptFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        m_passwordEdit = (EditText)getActivity().findViewById(R.id.password);
-        m_messageEdit = (EditText)getActivity().findViewById(R.id.message);
-        m_execButton = (Button)getActivity().findViewById(R.id.exec);
-        m_clearButton = (Button)getActivity().findViewById(R.id.clear_encrypt);
+        m_passwordEdit = getActivity().findViewById(R.id.password);
+        m_messageEdit = getActivity().findViewById(R.id.message);
+        m_execButton = getActivity().findViewById(R.id.exec);
+        m_clearButton = getActivity().findViewById(R.id.clear_encrypt);
 
         m_execButton.setOnClickListener(new View.OnClickListener()
         {

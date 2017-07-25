@@ -25,6 +25,8 @@ public class MyApp extends Application {
         tracker.enableExceptionReporting(true);
         tracker.enableAdvertisingIdCollection(true);
         tracker.enableAutoActivityTracking(true);
+
+        m_FirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
 
     public static FirebaseAnalytics getFirebaseAnalytics() {
